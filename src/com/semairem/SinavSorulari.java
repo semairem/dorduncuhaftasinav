@@ -6,11 +6,10 @@ import java.util.Scanner;
 
 
 public class SinavSorulari {
-	private static int faktoriyelSonuc;
-	private static int fonksiyonSonuc;
+	
 
 	public static void main(String[] args) {
-		Scanner scanner=new Scanner(System.in);
+		// Scanner scanner=new Scanner(System.in);
 		Random rastgeleIslemSayisi=new Random();
 		int islemSayisi=rastgeleIslemSayisi.nextInt(10);
 		
@@ -19,9 +18,11 @@ public class SinavSorulari {
 	    
 		for (int i = 0; i < islemSayisi; i++) {
 			
-			System.out.println("lütfen seçim yapýn (1-2)");
-			int secim=scanner.nextInt();
-			switch(secim) {
+			// System.out.println("lütfen seçim yapýn (1-2)");
+			// int secim=scanner.nextInt();
+			Random rastgeleIslemTuru =new Random();
+			int islemTuru=rastgeleIslemTuru.nextInt(2);
+			switch(islemTuru) {
 			
 			case 1:
 
